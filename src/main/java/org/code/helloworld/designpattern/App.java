@@ -2,7 +2,7 @@ package org.code.helloworld.designpattern;
 
 /**
  * Hello world!
- *
+ * 
  */
 public class App 
 {
