@@ -1,4 +1,4 @@
-package org.code.helloworld.designpattern.singleton;
+package org.code.helloworld.designpattern.create.singleton;
 
 /**
  * 
