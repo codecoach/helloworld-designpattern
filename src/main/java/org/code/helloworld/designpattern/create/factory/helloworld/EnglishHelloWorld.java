@@ -1,4 +1,6 @@
-package org.code.helloworld.designpattern.create.factory;
+package org.code.helloworld.designpattern.create.factory.helloworld;
+
+import org.code.helloworld.designpattern.create.factory.HelloWorld;
 
 /**
  * 

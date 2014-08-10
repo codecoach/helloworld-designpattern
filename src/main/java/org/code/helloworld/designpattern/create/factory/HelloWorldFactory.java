@@ -20,7 +20,6 @@ public class HelloWorldFactory<T> {
 		try {
 			return clazz.newInstance();
 		} catch (Exception e) {
-			e.printStackTrace();
 			throw new RuntimeException("创建错误", e);
 		}
 	}
