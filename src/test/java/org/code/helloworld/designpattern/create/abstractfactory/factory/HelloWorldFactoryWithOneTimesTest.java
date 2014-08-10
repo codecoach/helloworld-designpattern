@@ -4,7 +4,7 @@ import junit.framework.TestCase;
 
 import org.code.helloworld.designpattern.create.abstractfactory.HelloWorld;
 
-public class TwoTimesHelloWorldFactoryTest extends TestCase {
+public class HelloWorldFactoryWithOneTimesTest extends TestCase {
 
 	/**
 	 * 整体测试
@@ -12,7 +12,7 @@ public class TwoTimesHelloWorldFactoryTest extends TestCase {
 	public void testCreateHelloWorld() {
 		// fail("Not yet implemented");
 		String words[] = {"你好，世界！","hello, world!", "hello, donya!"};
-		TwoTimesHelloWorldFactory factory = new TwoTimesHelloWorldFactory();
+		HelloWorldFactoryWithOneTimes factory = new HelloWorldFactoryWithOneTimes();
 		HelloWorld[] helloWorlds = { factory.createHelloWorldInChinese(),
 				factory.createHelloWorldInEnglish(),
 				factory.createHelloWorldInJava() };

@@ -1,6 +1,7 @@
-package org.code.helloworld.designpattern.create.abstractfactory.helloworld.twotimes;
+package org.code.helloworld.designpattern.create.abstractfactory.helloworld.onetimes;
 
-import org.code.helloworld.designpattern.create.abstractfactory.helloworld.TwoTimesHelloWorld;
+import org.code.helloworld.designpattern.create.abstractfactory.helloworld.HelloWorldWithOneTimes;
+
 
 /**
  * 
@@ -11,7 +12,7 @@ import org.code.helloworld.designpattern.create.abstractfactory.helloworld.TwoTi
  * @date 2014-08-10 18:08:15
  *
  */
-public class TwoTimesHelloWorldInJava extends TwoTimesHelloWorld {
+public class HelloWorldInJavaWithOneTimes extends HelloWorldWithOneTimes {
 
 	@Override
 	public String think() {

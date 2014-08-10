@@ -1,6 +1,6 @@
 package org.code.helloworld.designpattern.create.abstractfactory.helloworld.twotimes;
 
-import org.code.helloworld.designpattern.create.abstractfactory.helloworld.TwoTimesHelloWorld;
+import org.code.helloworld.designpattern.create.abstractfactory.helloworld.HelloWorldWithTwoTimes;
 
 /**
  * 描述：中文的hello world
@@ -9,7 +9,7 @@ import org.code.helloworld.designpattern.create.abstractfactory.helloworld.TwoTi
  * @date 2014-08-10 18:07:57
  *
  */
-public class TwoTimesHelloWorldInChinese extends TwoTimesHelloWorld {
+public class HelloWorldInChineseWithTwoTimes extends HelloWorldWithTwoTimes {
 
 	@Override
 	public String think() {

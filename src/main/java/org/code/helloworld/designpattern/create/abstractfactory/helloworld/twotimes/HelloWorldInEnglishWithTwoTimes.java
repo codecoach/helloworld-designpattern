@@ -1,6 +1,6 @@
 package org.code.helloworld.designpattern.create.abstractfactory.helloworld.twotimes;
 
-import org.code.helloworld.designpattern.create.abstractfactory.helloworld.TwoTimesHelloWorld;
+import org.code.helloworld.designpattern.create.abstractfactory.helloworld.HelloWorldWithTwoTimes;
 
 /**
  * 
@@ -10,7 +10,7 @@ import org.code.helloworld.designpattern.create.abstractfactory.helloworld.TwoTi
  * @date 2014-08-10 18:08:08
  *
  */
-public class TwoTimesHelloWorldInEnglish extends TwoTimesHelloWorld {
+public class HelloWorldInEnglishWithTwoTimes extends HelloWorldWithTwoTimes {
 
 	@Override
 	public String think() {
