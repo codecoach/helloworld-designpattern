@@ -8,7 +8,7 @@ import java.io.Serializable;
 
 /**
  * 
- * 描述：原型模式，实现克隆功能<br>
+ * 描述：原型模式，以对象为原型进行复制、克隆功能<br>
  * 
  * 参考：http://zz563143188.iteye.com/blog/1847029 <br>
  * 中深浅克隆的概念
@@ -53,7 +53,7 @@ public class HelloWorld implements Cloneable, Serializable {
 	}
 
 	/**
-	 * 这是一只简便的实现方法，这种实现有个限制条件 ：所有引用对象实现序列号
+	 * 这是一只简便的实现方法，这种实现有个限制条件 ：所有引用对象实现序列号化
 	 * 
 	 * @return
 	 */
