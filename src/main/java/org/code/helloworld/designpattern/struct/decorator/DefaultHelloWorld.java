@@ -7,9 +7,13 @@ package org.code.helloworld.designpattern.struct.decorator;
  * @author yanchangyou@gmail.com
  *
  */
-public abstract class HelloWorld {
+public class DefaultHelloWorld extends HelloWorld {
 
-	public abstract String think();
+	public String think() {
+		return "hello,world！";
+	}
 
-	public abstract void speak();
+	public void speak() {
+		System.out.println(think());
+	}
 }
