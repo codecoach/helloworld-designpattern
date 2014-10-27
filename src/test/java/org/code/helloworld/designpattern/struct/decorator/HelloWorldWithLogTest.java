@@ -20,7 +20,7 @@ public class HelloWorldWithLogTest extends TestCase {
 
 		String words = "speak之前\r\nhello,world！\r\nspeak之后\r\n";
 
-		HelloWorldWithLog helloWorld = new HelloWorldWithLog();
+		HelloWorldWithLog helloWorld = new HelloWorldWithLog(new HelloWorld());
 
 		helloWorld.speak();
 

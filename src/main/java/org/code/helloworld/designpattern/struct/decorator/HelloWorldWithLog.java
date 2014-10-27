@@ -10,8 +10,8 @@ public class HelloWorldWithLog {
 
 	private HelloWorld helloWorld;
 
-	public HelloWorldWithLog() {
-		helloWorld = new HelloWorld();
+	public HelloWorldWithLog(HelloWorld helloWorld) {
+		this.helloWorld = helloWorld;
 	}
 
 	/**
